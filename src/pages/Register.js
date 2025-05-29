@@ -235,14 +235,14 @@ const inputStyle = {
     outlineColor: "#0d6efd",
 };
 
-const iconStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "10px",
-    transform: "translateY(-50%)",
-    fontSize: "1rem",
-    color: "#555",
-};
+// const iconStyle = {
+//     position: "absolute",
+//     top: "50%",
+//     left: "10px",
+//     transform: "translateY(-50%)",
+//     fontSize: "1rem",
+//     color: "#555",
+// };
 
 // You can also put this style in CSS if preferred:
 const style = document.createElement('style');
