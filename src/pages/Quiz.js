@@ -137,7 +137,7 @@ export default function Quiz() {
 
     const fetchAssessmentByCourseId = async (courseId) => {
         try {
-            const response = await axios.get(`https://localhost:7086/api/AssessmentModels/ByCourse/${courseId}`);
+            const response = await axios.get(`https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/AssessmentModels/ByCourse/${courseId}`);
             const data = response.data;
 
             if (data && data.questions) {
