@@ -21,7 +21,7 @@ export default function CourseUpload() {
         };
 
         try {
-            const response = await api.post("https://localhost:7086/api/CourseModels", course);
+            const response = await api.post("https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/CourseModels", course);
             const courseId = response.data.courseId;
             alert("Course uploaded successfully!");
             navigate(`/upload-assessment/${courseId}`); // optional: navigate to assessment upload
