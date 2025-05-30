@@ -127,7 +127,7 @@ export default function Login() {
         setLoading(true);
 
         try {
-            const res = await api.post('https://localhost:7086/api/Users/login', {
+            const res = await api.post('https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/Users/login', {
                 email,
                 password
             });
