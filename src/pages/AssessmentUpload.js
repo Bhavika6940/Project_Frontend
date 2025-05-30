@@ -67,7 +67,7 @@ export default function UploadQuestions() {
         console.log("payload", payload);
 
         try {
-            await api.post("https://localhost:7086/api/AssessmentModels", payload);
+            await api.post("https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/AssessmentModels", payload);
             alert("Assessment uploaded successfully!");
             navigate("/courses");
         } catch (error) {
