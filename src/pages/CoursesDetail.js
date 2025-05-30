@@ -16,7 +16,7 @@ export default function CourseDetail() {
         //     mediaUrl: 'https://samplelib.com/lib/preview/mp4/sample-5s.mp4' // Sample video
         // };
         // setCourse(mockCourse);
-        axios.get(`https://localhost:7086/api/CourseModels/${id}`).then(res => setCourse(res.data));
+        axios.get(`https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/CourseModels/${id}`).then(res => setCourse(res.data));
         
         
     }, [id]);
