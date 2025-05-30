@@ -151,7 +151,7 @@ export default function Courses() {
     const handleDelete = async (id) => {
         if (window.confirm("Are you sure you want to delete this course?")) {
             try {
-                await api.delete(`https://localhost:7086/api/CourseModels/${id}`);
+                await api.delete(`https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/CourseModels/${id}`);
                 setCourses((prev) => prev.filter((c) => c.courseId !== id));
             } catch {
                 alert("Failed to delete course");
