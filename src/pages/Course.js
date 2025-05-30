@@ -123,7 +123,7 @@ export default function Courses() {
     useEffect(() => {
         (async () => {
             try {
-                const res = await api.get("https://localhost:7086/api/CourseModels");
+                const res = await api.get("https://projectwebapp-gmbbhpdubchzf9a6.centralindia-01.azurewebsites.net/api/CourseModels");
                 setCourses(res.data);
             } catch (err) {
                 console.error("Failed to load courses", err);
